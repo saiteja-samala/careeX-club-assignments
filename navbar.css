@@ -37,7 +37,7 @@ a:after{
     transition: 0.1s ease-in;
 }
 a:hover{
-    color: rgb(9, 9, 9);
+    color: rgb(245, 228, 3);
 }
 a:hover:after{
     width: 10px;
