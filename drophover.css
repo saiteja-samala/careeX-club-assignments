@@ -1,0 +1,62 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color:rgb(7, 7, 0);
+    
+}
+button{
+    width:250px;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: goldenrod;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(144, 105, 8);
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgb(255, 255, 255);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: rgb(14, 2, 0);
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color:rgb(9, 220, 244);
+    text-transform: uppercase;
+    color: black;
+    /* position: relative; */
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display:contents;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color:goldenrod}
